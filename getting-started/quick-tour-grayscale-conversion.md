@@ -82,6 +82,10 @@ Now click the Run button to see the results. If everything worked correctly, you
 
 ![](../.gitbook/assets/screen-shot-2018-08-05-at-03.46.53.png)
 
+{% hint style="info" %}
+If you want to save or download the output image on the image viewer, right click it and select the option to save the image.
+{% endhint %}
+
 ## Converting to grayscale
 
 Now we get to do some simple image processing: converting our image to grayscale. This is where we summon the powers of OpenCV.
