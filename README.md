@@ -4,7 +4,7 @@ description: Introducing Xaval
 
 # Xaval
 
-### Introduction
+## Introduction
 
 Xaval is a web-based playground for experimenting with image and computer vision. It is meant primarily for learning and exploration.
 
@@ -40,7 +40,7 @@ This might change at any time and is not exhaustive.
 * Multiple code editor cells
 * Ability to save your session on disk or in the cloud
 
-### About the documentation
+## About the documentation
 
 This documentation website will take you throw how Xaval works and how to get the most of it. At the moment, it is still incomplete. We're working to complete it  soon and to keep it up to date with new releases of Xaval.
 
