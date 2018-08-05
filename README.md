@@ -47,3 +47,7 @@ This documentation website will take you throw how Xaval works and how to get th
 
 If you are new to Xaval, you should start with the **Getting Started** sections which take you through a quick tour of Xaval and writing your first program. If you're already with familiar with Xaval, then you should check out the **Guide** which contains more detailed walkthroughs of specific features and concepts.
 
+{% hint style="info" %}
+The documentation assumes you already have sufficient knowledge of Javascript.
+{% endhint %}
+
