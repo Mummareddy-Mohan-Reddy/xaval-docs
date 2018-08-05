@@ -4,3 +4,5 @@
 
 ## Getting Started
 
+* [Xaval interface](getting-started/xaval-interface.md)
+
