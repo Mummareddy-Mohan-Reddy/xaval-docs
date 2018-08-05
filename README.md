@@ -39,6 +39,7 @@ This might change at any time and is not exhaustive.
 * Console emulator
 * Multiple code editor cells
 * Ability to save your session on disk or in the cloud
+* Ability to clear current session without having to refresh the page
 
 ## About the documentation
 
