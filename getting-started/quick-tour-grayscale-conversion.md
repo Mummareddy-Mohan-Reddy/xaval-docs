@@ -52,6 +52,10 @@ const { files, imageViewer } = xaval.io;
 ```
 {% endhint %}
 
+{% hint style="info" %}
+Xaval exposes a global object called `xaval` which encapsulates all the built-in utilities and libraries provided by Xaval, including utilities used to interact with the Xaval environment itself. Think of it as the Xaval standard library.
+{% endhint %}
+
 ```javascript
 const image = files.readImage('file1');
 ```
