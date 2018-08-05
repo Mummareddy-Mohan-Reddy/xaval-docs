@@ -5,4 +5,5 @@
 ## Getting Started
 
 * [Xaval interface](getting-started/xaval-interface.md)
+* [Quick tour: grayscale conversion](getting-started/quick-tour-grayscale-conversion.md)
 
