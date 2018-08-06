@@ -107,10 +107,14 @@ imageViewer.show(image);
 image.delete();
 ```
 
-Xaval exposes the OpenCV.js library through a global object called `cv`. `cv.cvtColor()` is an OpenCV method for converting between different colorspaces. Here we are using it to convert from RGBA colorspace to grayscale \(specified by the code `cv.COLOR_RGBA2GRAY`\). The first argument is the image that we want to convert and the second is the destination memory where we want to store the converted image. In this case were are effectively replacing the colour image with the converted one. The last argument specifies the number of channels in the destination image. When set to 0, it will be derived automatically.
+Xaval exposes the OpenCV.js library through a global object called `cv`. `cv.cvtColor()` is an OpenCV method for converting between different colorspaces. Here we are using it to convert from RGBA colorspace to grayscale \(specified by the code `cv.COLOR_RGBA2GRAY`\). The first argument is the image that we want to convert and the second is the destination memory where we want to store the converted image. In this case were are effectively replacing the colour image with the converted one. The last argument specifies the number of channels in the destination image. When set to 0, it will be derived automatically. To learn more about colorspace conversion in OpenCV, [visit this page](https://docs.opencv.org/3.4/db/d64/tutorial_js_colorspaces.html).
 
 {% hint style="info" %}
 Modifications made to the image returned by `files.readImage()` do not affect the corresponding image in the library. Calling `files.readImage()` with the same filename twice will return a new image each time.
+{% endhint %}
+
+{% hint style="info" %}
+OpenCV.js predominantly uses the RGBA colorspace for images in order to conform to other Web APIs. This is in contracts to the bindings of OpenCV in other languages which use BGR.
 {% endhint %}
 
 Now if you run your code, your image will be displayed in grayscale.
