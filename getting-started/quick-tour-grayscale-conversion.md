@@ -114,7 +114,7 @@ Modifications made to the image returned by `files.readImage()` do not affect th
 {% endhint %}
 
 {% hint style="info" %}
-OpenCV.js predominantly uses the RGBA colorspace for images in order to conform to other Web APIs. This is in contracts to the bindings of OpenCV in other languages which use BGR.
+OpenCV.js predominantly uses the RGBA colorspace for images in order to conform to other Web APIs. This is in contrast to the bindings of OpenCV in other languages which use BGR.
 {% endhint %}
 
 Now if you run your code, your image will be displayed in grayscale.
